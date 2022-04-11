@@ -1,0 +1,51 @@
+body {
+    background-color: #211b51;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 240px;
+    margin-top: -120px;
+}
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.img {
+    width: 600px;
+    padding-left: 710px;
+    margin-top: 40px;
+}
+.rotulo {
+    font-size: 60px;
+    padding-left: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+.textos {
+    margin-top: -420px;
+    padding-left: 40px;
+}
+.texto-1 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.texto-2 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.boton {
+    color: white;
+    background-color: #ed6632;
+    padding: 20px;
+    border-radius: 6px;
+    width: 170px;
+    border: -color: #aaaaaa;
+    border-style: none;
+    border-bottom: -420px;
+}
