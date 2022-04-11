@@ -61,6 +61,9 @@ header ul li {
     border-style: none;
     border-bottom: -420px;
 }
+.check-box {
+    display: none;
+}
 
 @media (max-width: 600px) {
     .img {
