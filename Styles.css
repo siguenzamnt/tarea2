@@ -1,15 +1,14 @@
 body {
     background-color: #211b51;
 }
+
 ul {
     display: flex;
     justify-content: flex-end;
     padding-right: 240px;
     margin-top: -120px;
 }
-header ul li {
-    list-style: none;
-}
+
 a {
     padding: 20px;
     text-decoration: none;
@@ -17,31 +16,41 @@ a {
     font-family: sans-serif;
     font-size: 20px;
 }
+
+header ul li {
+    list-style: none;
+}
+
 .img {
     width: 600px;
     padding-left: 710px;
     margin-top: 40px;
 }
+
 .rotulo {
     font-size: 60px;
     padding-left: 40px;
     color: white;
     font-family: sans-serif;
 }
+
 .textos {
     margin-top: -420px;
     padding-left: 40px;
 }
+
 .texto-1 {
     color: white;
     font-size: 40px;
     font-family: sans-serif;
 }
+
 .texto-2 {
     color: white;
     font-size: 20px;
     font-family: sans-serif;
 }
+
 .boton {
     color: white;
     background-color: #ed6632;
@@ -52,23 +61,55 @@ a {
     border-style: none;
     border-bottom: -420px;
 }
-@media (max-width: 600px)  {
-    .img { 
-    width: 505px;
-    padding-left: 300px;
-    margin-top: 40px;
-}
-ul {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 92px;
-}
-.texto-1 {
-    color: white;
-    font-size: 39px;
-    font-family: sans-serif;
-}
 
+@media (max-width: 600px) {
+    .img {
+        width: 506px;
+        padding-left: 0;
+        margin-top: 36px;
+    }
 
+    ul {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 92px;
+    }
 
+    .texto-1 {
+        color: white;
+        font-size: 39px;
+        font-family: sans-serif;
+    }
+
+    ul {
+        display: none;
+    }
+
+    input:checked~ul {
+        display: block;
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 28px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        color: white;
+        margin-left: 35px;
+    }
+
+    header ul li {
+        list-style: none;
+        padding: 10px;
+    }
 }
