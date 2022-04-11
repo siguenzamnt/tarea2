@@ -52,3 +52,23 @@ a {
     border-style: none;
     border-bottom: -420px;
 }
+@media (max-width: 600px)  {
+    .img { 
+    width: 505px;
+    padding-left: 300px;
+    margin-top: 40px;
+}
+ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 92px;
+}
+.texto-1 {
+    color: white;
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+
+
+}
